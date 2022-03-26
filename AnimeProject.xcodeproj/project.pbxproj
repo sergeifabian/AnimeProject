@@ -13,6 +13,7 @@
 		B218201A27E9E7FD0004D623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B218201827E9E7FD0004D623 /* Main.storyboard */; };
 		B218201C27E9E7FE0004D623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B218201B27E9E7FE0004D623 /* Assets.xcassets */; };
 		B218201F27E9E7FE0004D623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B218201D27E9E7FE0004D623 /* LaunchScreen.storyboard */; };
+		B2314C6E27EF2E0700AE75A6 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2314C6D27EF2E0700AE75A6 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B218201B27E9E7FE0004D623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B218201E27E9E7FE0004D623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B218202027E9E7FE0004D623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2314C6D27EF2E0700AE75A6 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		B218201127E9E7FD0004D623 /* AnimeProject */ = {
 			isa = PBXGroup;
 			children = (
+				B2314C6C27EF2DFA00AE75A6 /* Services */,
 				B218201227E9E7FD0004D623 /* AppDelegate.swift */,
 				B218201427E9E7FD0004D623 /* SceneDelegate.swift */,
 				B218201627E9E7FD0004D623 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				B218202027E9E7FE0004D623 /* Info.plist */,
 			);
 			path = AnimeProject;
+			sourceTree = "<group>";
+		};
+		B2314C6C27EF2DFA00AE75A6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B2314C6D27EF2E0700AE75A6 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				B218201727E9E7FD0004D623 /* ViewController.swift in Sources */,
 				B218201327E9E7FD0004D623 /* AppDelegate.swift in Sources */,
 				B218201527E9E7FD0004D623 /* SceneDelegate.swift in Sources */,
+				B2314C6E27EF2E0700AE75A6 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
