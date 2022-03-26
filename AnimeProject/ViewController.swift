@@ -25,10 +25,9 @@ class ViewController: UIViewController {
         button.setTitle("Sign out", for: .normal)
         return button
     }()
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
         listService.load()
     }
 
