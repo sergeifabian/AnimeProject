@@ -9,9 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let authService: AuthService = AuthServiceImpl()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        authService.signIn()
     }
 
 
