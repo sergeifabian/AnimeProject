@@ -10,10 +10,12 @@ import UIKit
 class ViewController: UIViewController {
 
     let authService: AuthService = AuthServiceImpl()
+    let listService = ListService()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        listService.load()
         authService.signIn()
     }
 
